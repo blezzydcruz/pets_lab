@@ -11,6 +11,9 @@ const PetList = ({ pets }) => {
 
     return(
         <div id="pet-list">
+            <h3>List of Pets</h3>
+            <hr />
+
             {petComponents}
         </div>
     )
